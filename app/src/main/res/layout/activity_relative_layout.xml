@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef9b00"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#f8eff8f3"
+        android:hint="name"
+        android:padding="16dp" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/name"
+        android:background="#f8eff8f3"
+        android:hint="email"
+        android:padding="16dp" />
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/name"
+        android:background="#f8eff8f3"
+        android:hint="subject"
+        android:padding="16dp" />
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/subject"
+        android:background="#f8eff8f3"
+        android:gravity="top"
+        android:hint="message"
+        android:padding="16dp" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="submit" />
+
+</RelativeLayout>

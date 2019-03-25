@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Time To Learn</string>
+    <string name="logo">Logo Time To Learn</string>
+
+    <string-array name="options">
+        <item>Linear Layout Kick</item>
+        <item>Relative Layout Punch</item>
+        <item>Card View Sidekick</item>
+    </string-array>
+</resources>
